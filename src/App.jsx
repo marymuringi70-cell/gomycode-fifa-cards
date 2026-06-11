@@ -1,4 +1,4 @@
-import {PlayersList} from "./components/PlayersList";
+import {PlayersList} from "./components/PlayerList"
 
 function App() {
   return (
