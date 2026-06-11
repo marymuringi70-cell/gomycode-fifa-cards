@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 
-const Player = ({ name, team, nationality, jerseyNumber, age, image }) => {
+export const Player = ({ name, team, nationality, jerseyNumber, age, image }) => {
   return (
     <Card style={{ width: '18rem', margin: '10px' }}>
       <Card.Img variant="top" src={image} style={{ height: '200px', objectFit: 'cover' }} />
@@ -24,4 +24,3 @@ Player.defaultProps = {
   age: 0,
   image: "https://via.placeholder.com/150"
 };
-export default Player;

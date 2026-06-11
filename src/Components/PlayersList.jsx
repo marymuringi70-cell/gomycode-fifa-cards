@@ -1,7 +1,7 @@
 import players from "../players";
-import Player from "./Player";
+import {Player} from "./Player";
 
-const PlayersList = () => {
+export const PlayersList = () => {
   return (
     <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
       {players.map((player, index) => (
@@ -10,5 +10,3 @@ const PlayersList = () => {
     </div>
   );
 };
-
-export default PlayersList;
